@@ -1,4 +1,5 @@
 public class BST_Left {
+    /** preorder traversal (DFS): root -> left -> right **/
     public void traverse_dfs_left_preorder(BST_Node node){
         if(node == null) return;
 
